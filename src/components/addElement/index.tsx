@@ -18,7 +18,7 @@ export default function AddElement(props: any) {
     <section className={"inputItem"}>
       <section>
         <WiredInput
-          placeholder="ЧТО НУЖНО КУПИТЬ?"
+          placeholder="..."
           onChange={(e) => handleChange(e)}
         />
         <WiredButton elevation={2} onClick={handleClick}>
